@@ -1,0 +1,78 @@
+.input_panel {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.model_ihm {
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin: 5px 0;
+}
+
+.model_ihm label {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.model_ihm input {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.model_ihm select {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.config_page {
+  padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin: 3px 0;
+}
+
+.config_page label {
+    font-weight: bold;
+}
+
+.config_page input {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.button_add_page {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.button_add_page:hover {
+    background-color: #0056b3;
+}
+
+.button_add_page:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

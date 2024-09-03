@@ -1,0 +1,87 @@
+{
+  "projectName": "proj1",
+  "author": "carlos",
+  "ihm": {
+    "model": "Px4",
+    "width": 480,
+    "height": 272,
+    "orientation": "landscape"
+  },
+  "screens": [
+    {
+      "typeComponent": "Screen",
+      "id": "screen1",
+      "childs": [
+        {
+          "typeComponent": "TextArea2",
+          "id": "TextArea1",
+          "value": "TextArea1",
+          "placeholder": "TextArea1",
+          "color": "black",
+          "backgroundColor": "white",
+          "fontSize": 10
+        },
+        {
+          "typeComponent": "TextField",
+          "id": "TextField1",
+          "value": "TextField1",
+          "placeholder": "TextField1",
+          "posX": 145,
+          "posY": 42
+        },
+        {
+          "typeComponent": "TextArea",
+          "id": "textArea1",
+          "value": "Label1",
+          "posX": 268,
+          "posY": 43
+        },
+        {
+          "typeComponent": "CheckBox",
+          "id": "CheckBox1",
+          "label": "CheckBox1",
+          "posX": 352,
+          "posY": 39
+        },
+        {
+          "typeComponent": "Bar",
+          "id": "Bar1",
+          "value": "Bar1",
+          "posX": 17,
+          "posY": 124
+        },
+        {
+          "typeComponent": "Image",
+          "id": "image1",
+          "value": "image1",
+          "posX": 132,
+          "posY": 106
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "button1",
+          "color": "white",
+          "backgroundColor": "blue",
+          "fontSize": 10,
+          "posX": 248,
+          "posY": 125
+        },
+        {
+          "typeComponent": "Panel",
+          "id": "panel1",
+          "value": "panel1",
+          "color": "black",
+          "backgroundColor": "white",
+          "fontSize": 10,
+          "posX": 362,
+          "posY": 124
+        }
+      ],
+      "backgroundColor": "white",
+      "height": 480,
+      "width": 482,
+      "orientation": "portrait"
+    }
+  ]
+}

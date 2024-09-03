@@ -1,0 +1,120 @@
+.page_preview {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.page {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+
+.button {
+    width: 100%;
+    grid-area: button;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.button button {
+    padding: calc(0.5em - 1px);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.textfield {
+    width: 100%;
+    grid-area: textfield;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+}
+
+.textfield input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.textarea {
+    width: 100%;
+    grid-area: textarea;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.textarea textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    resize: none;
+}
+
+.checkbox {
+    width: 100%;
+    grid-area: checkbox;
+    display: flex;
+    justify-content: space-around;
+}
+
+.label {
+    width: 100%;
+    grid-area: label;
+    display: flex;
+    justify-content: space-around;
+}
+
+.label label {
+    display: block;
+}
+
+.images {
+    grid-area: images;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.page {
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "label label"
+        "textfield textarea"
+        "checkbox images"
+        "button button";
+    grid-gap: 5px;    
+}
+
+.preview_options {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.trash_button {
+    width: 100%;
+    border: none;
+
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: none;
+}
+
+
+
+
+

@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 0;
+  margin-left: 20px;
+  width: calc(100% - 40px);
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+
+
+
